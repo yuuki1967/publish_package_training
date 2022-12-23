@@ -21,7 +21,6 @@ jobs:
         uses: docker/metadata-action@v4.1.1
         with:
           images: |
-            yuuki1967/publish_package_training/game
             ghcr.io/${{ github.repository }}
       
       - name: Build and push Docker images
