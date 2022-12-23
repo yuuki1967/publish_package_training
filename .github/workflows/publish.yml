@@ -16,4 +16,4 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
           repository: yuuki1967/publish_package_training/game
-          tag_with_sha: true
+          tag_with_sha: false
